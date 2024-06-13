@@ -1,0 +1,114 @@
+.colornavbar
+{
+    background-color: #313133;
+}
+@font-face {
+    font-family: std;
+    src: url('Circular Std Medium 500.ttf');
+  }
+  .font
+  {
+    font-family: std;
+  }
+  
+.top-n-10
+{
+    margin-top: -10px;
+}
+.icontouch:hover
+{
+    background-color: #086AD7;
+    color:white ;
+}
+.radius
+{
+    border-radius: 10px;
+}
+.imgcard
+{
+    height: 80px;
+}
+.imgcard2
+{
+    height:350px;
+
+}
+.imgcard2:hover
+{
+    border: 0;
+   background-color:whitesmoke;
+}
+.imgcard2:hover  
+{
+  height:400px;
+}
+.imgcard2:hover .cardsicons
+{
+    visibility: visible;
+    opacity:1;
+}
+.cardsicons
+{
+    visibility: hidden;
+    opacity: 0;
+}
+.imgcard:hover  
+{
+  height:205px;
+}
+.imgcard:hover .content
+{
+    visibility: visible;
+    opacity:1;
+}
+.content
+{
+    visibility: hidden;
+    opacity: 0;
+}
+.backgroundimage-1
+{
+    background-image: url('images/bg-1.jpg');
+}
+.hoverborder:hover
+{
+    box-shadow: 5px 5px   #086AD7;
+}
+.card1:hover
+{
+    background-color:#0d64e6;
+    color: white;
+}
+.card2:hover
+{
+    box-shadow: 5px 5px #086AD7;
+    height: 100%;
+   
+}
+.card2:hover img 
+{
+    height:50%
+}
+
+.fontnav
+{
+    font-size: 10px;
+}
+.bg-gold {
+    background: -webkit-linear-gradient(70deg, #0d64e6 40%, #E5EFF9 40%);
+    background: -o-linear-gradient(70deg, #0d64e6 40%, #E5EFF9 40%);
+    background: -moz-linear-gradient(70deg, #0d64e6 40%, #E5EFF9 40%);
+    background: linear-gradient(70deg, #0d64e6 40%, #E5EFF9 40%);
+  }
+  .vl
+ {
+    border-left: 2px solid white;
+    height: 1rem;
+ }
+ .bg-blue {
+   
+    background-color: #211E3B;
+    background-image: linear-gradient(white, white);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+  }
